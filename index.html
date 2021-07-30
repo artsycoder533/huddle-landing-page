@@ -12,10 +12,14 @@
 </head>
 <body>
   <header>
-      <img src="./images/logo.svg" alt="">
+      <img src="./images/logo.svg" alt="logo">
   </header>
-  <!-- svg background -->
-  <img class="background" src="./images/bg-mobile.svg" alt="">
+  <picture>
+    <source media="(min-width:350px)" srcset="./images/bg-mobile.svg" alt="background">
+    <source media="(min-width:768px)" srcset="./images/bg-desktop.svg" alt="background">
+    <img class="background" src="./images/bg-mobile.svg" alt="mobile background">
+  </picture>
+  <!-- <img class="background" src="./images/bg-desktop.svg" alt="mobile background"> -->
   <section>
     <div class="image-container">
       <img class="img" src="./images/illustration-mockups.svg" alt="illustration mockup">
