@@ -77,6 +77,7 @@ section {
     font-size: 1.4rem;
     line-height: 1.5;
     letter-spacing: 0.6px;
+    
 }
 
 .text-container p {
@@ -266,6 +267,7 @@ i {
     }
     .text-container h1 {
         font-size: 2.6rem;
+        font-weight: 600;
     }
 
     .text-container p {
