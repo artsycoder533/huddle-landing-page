@@ -64,6 +64,7 @@ section {
 }
 
 .img {
+    padding-top: 20px;
     max-width: 100%;
 }
 
@@ -75,15 +76,13 @@ section {
     font-family: var(--para-font);
     font-size: 1.4rem;
     line-height: 1.5;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.6px;
 }
 
 .text-container p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding: 20px 0;
     line-height: 1.5;
-    letter-spacing: 1px;
-    font-weight: 400;
 }
 
 button {
@@ -222,6 +221,11 @@ i {
         padding-left: 50px;
     }
 
+    button {
+        width: 215px;
+        height: 50px;
+    }
+
     footer {
         justify-content: flex-end;
         height: 75px;
@@ -230,37 +234,65 @@ i {
 
     header img {
         width: 200px;
-        
     }
 
     header {
-        align-items: center;
+        height: 100px;
     }
 }
 
 @media screen and (min-width: 1200px){
     .text-container {
-        border: 2px solid yellow;
+        padding-left: 40px;
     }
 
     body {
         max-width: 90vw;
     }
 
+    section {
+        height: (100vh - 200px);
+    }
+
+    .image-container {
+        height: 100%;
+    }
+
+    .image-container img {
+        padding-top: 30px;
+    }
+    .text-container {
+        padding-left: 20px;
+    }
     .text-container h1 {
         font-size: 2.6rem;
     }
 
     .text-container p {
-        font-size: 1.1rem;
-    }
-    header {
-        border: 2px solid yellow;
-        height: 100px;
+        font-size: 1.0rem;
     }
 
     header img {
         width: 225px;
+        padding-top: px;
     }
 
+}
+
+@media screen and (min-width: 1400px) {
+    body {
+        max-width: 1200px;
+    }
+
+    header img {
+        width: 250px;
+        padding-top: 50px;
+    }
+
+}
+
+@media screen and (min-width: 1600px){
+    body {
+        max-width: 1400px;
+    }
 }
